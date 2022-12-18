@@ -1,0 +1,157 @@
+@import url('<script src="https://kit.fontawesome.com/a99be25876.js" crossorigin="anonymous"></script>');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.7rem;
+  line-height: 1;
+  color: white;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: black;
+}
+
+.container {
+  height: min(99vh ,62.4rem);
+  width: min(99vw , 31.5rem);
+  border: 2px solid #212121;
+  background-color: #1e1e1e;
+  box-shadow: 0px 0px 50px #212121;
+  border-radius: 22px;
+  color: white;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+
+nav {
+  height: 12%;
+  color: white;
+  border-radius: 22px 22px 0px 0px;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+}
+
+main {
+  height: 54%;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#clock {
+  user-select: none;
+  font-size: 5rem;
+}
+
+#milisec {
+  font-size: xx-large;
+  user-select: none;
+}
+
+.tag {
+  font-size: large;
+}
+
+.btn-section {
+  height: 20%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn-section div {
+  height: 10rem;
+  width: 10rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#8aa9f8;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+#reset,
+#pause {
+  height: 5rem;
+  width: 5rem;
+  background-color: #397b3b;
+}
+
+footer {
+  background-color: #303030;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 14%;
+  border-radius: 0px 0px 22px 22px;
+}
+
+footer span {
+
+  text-align: center;
+}
+.alarm ,.clock,.timer,.stopwatchh,.bedtime{
+  display: grid;
+  place-content: center;
+}
+
+footer span div {
+  margin-top: 10px;
+
+}
+
+footer span span {
+  height: 3.8rem;
+  cursor: pointer;
+}
+
+.hidden {
+  visibility: hidden;
+}
+@media (min-width:1440px) {
+  html {
+   font-size: 70%;
+  }
+}
+@media (min-width:1640px) {
+  html {
+   font-size: 95%;
+  }
+}
